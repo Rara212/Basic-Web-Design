@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+h2 {
+    color: #67dce0
+}
+
+h3 {
+    color: #67dce0
+}
+
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #67dce0;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron {
+    font-size: 30px;
+    padding: 60px;
+    background-color: #CFF3F6;
+    text-align: center;
+    color: white;
+    font-family: 'Lobster';
+}
+
+nav {
+    background-color: #67dce0;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.table {
+    border-spacing: 15px 20px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+   
+.column {
+    margin: 0 15px 25px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+    background: #fff;
+    border-radius: 10px;
+
+    flex-basis: 100%;
+}
+
+.cards {
+    padding: 15px 25px;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25)
+}
+
+.cardsInfo {
+    padding: 15px;
+    font-size: 0.8em;
+    align-items: center;
+    border bottom: 2px solid #cccccc;
+}
+
+.cardsInfo i {
+    font-size: 2em;
+    transition: .4s;    
+}
+
+.cardsInfo :hover i {
+    color: #67dce0; 
+}
+
+.fas {
+    color: #67dce0;;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+   display: inline;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
